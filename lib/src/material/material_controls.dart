@@ -283,7 +283,7 @@ class _MaterialControlsState extends State<MaterialControls>
                 ),
               ),
               SizedBox(
-                height: chewieController.isFullScreen ? 15.0 : 15.0,
+                height: chewieController.isFullScreen ? 15.0 : 0.0,
               ),
               if (!chewieController.isLive)
                 Expanded(
